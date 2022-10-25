@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.add {
+  height: 500px;
+  width: 100%;
+}
+.addimg {
+  height: 100%;
+  width: 100%;
+}
+.a {
+  padding-bottom: 50px;
+}
+.goodsNav {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+

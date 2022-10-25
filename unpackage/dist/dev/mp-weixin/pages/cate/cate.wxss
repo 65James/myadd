@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.cate {
+  display: flex;
+  justify-content: space-between;
+}
+.cate .cateLeftv {
+  width: 120px;
+  line-height: 60px;
+  text-align: center;
+  overflow: auto;
+}
+.cate .cateLeftv.active {
+  background-color: #fff;
+  position: relative;
+}
+.cate .cateLeftv.active::before {
+  position: absolute;
+  content: '';
+  display: block;
+  background-color: #c00000;
+  width: 3px;
+  height: 30px;
+  top: 50%;
+  left: 1px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.text {
+  line-height: 60px;
+  text-align: center;
+}
+.titleRight {
+  margin-left: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.titleRight .titleRightto {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  position: 10px;
+}
+.poop {
+  background-color: #fff;
+  height: 100%;
+}
+

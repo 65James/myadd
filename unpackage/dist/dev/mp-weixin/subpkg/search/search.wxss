@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.top {
+  background-color: #c00;
+  color: #fff;
+}
+.middle {
+  padding-top: 5px;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.tag-view {
+  display: flex;
+}
+.tag-view uni-tag {
+  margin: 5px 10px;
+}
+.listt {
+  display: flex;
+  line-height: 40px;
+  justify-content: space-between;
+  pad: 0 10px;
+  border-bottom: 1px solid gray;
+}
+.listt text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+

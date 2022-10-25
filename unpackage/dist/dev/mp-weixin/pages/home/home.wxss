@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+image {
+  width: 100%;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+.nav-list .nav-img {
+  width: 128rpx;
+  height: 140rpx;
+}
+.add {
+  display: flex;
+  justify-content: space-around;
+}
+.right {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+

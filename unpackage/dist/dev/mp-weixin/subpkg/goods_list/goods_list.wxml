@@ -1,0 +1,1 @@
+<view><block wx:for="{{$root.l0}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['topog',['$0'],[[['list','',index]]]]]]]}}" class="list_box" bindtap="__e"><view><image src="{{item.$orig.goods_big_logo||img}}" mode></image></view><view><view>{{item.$orig.goods_name}}</view><text>{{"$"+item.f0}}</text></view></view></block></view>
